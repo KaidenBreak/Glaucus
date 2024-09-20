@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página en Construcción</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('portadaconstruccion.svg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #ffffff;
+            background-color: rgba(0, 150, 136, 0.7); /* Color con transparencia */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 10; /* Asegura que el botón esté sobre la imagen */
+        }
+
+        .button:hover {
+            background-color: rgba(0, 150, 136, 1); /* Color más opaco al pasar el cursor */
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Haz clic aquí</button>
+</body>
+</html>
